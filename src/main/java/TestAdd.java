@@ -53,4 +53,5 @@ public class TestAdd {
     public void setSalary(int salary) {
         this.salary = salary;
     }
+
 }
