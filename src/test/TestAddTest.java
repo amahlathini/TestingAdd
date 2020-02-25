@@ -33,10 +33,10 @@ public class TestAddTest {
     public void idtest1(){
         TestAdd employee = new TestAdd(1,"Ayabulela", 15000);
         Assert.assertSame(new TestAdd(1,"Ayabulela", 15000), employee);
-    } @Test
-    public void idtest2(){
-        TestAdd employee = new TestAdd(1,"Ayabulela", 15000);
         Assert.assertNotSame(new TestAdd(1,"Ayabulela", 15000), employee);
     }
+
+    //Failing Test
+
 
 }
