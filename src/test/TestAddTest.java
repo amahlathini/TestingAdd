@@ -36,7 +36,5 @@ public class TestAddTest {
         Assert.assertNotSame(new TestAdd(1,"Ayabulela", 15000), employee);
     }
 
-    //Failing Test
-
 
 }
