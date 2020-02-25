@@ -12,7 +12,7 @@ public class TestAddTest {
         assertEquals(expectedName, TestAdd.getEmpNameWithHighestSalary());
     }
 */
-
+//Object Equality
     @Test
     public void myObjectEqualsTest(){
 
